@@ -1,4 +1,4 @@
-package headfirst.strategy;
+package headfirst.strategy.behaviors;
 
 public class FlyWithWings implements FlyBehavior {
 	public void fly() {

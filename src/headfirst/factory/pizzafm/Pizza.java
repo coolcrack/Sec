@@ -6,7 +6,7 @@ public abstract class Pizza {
 	String name;
 	String dough;
 	String sauce;
-	// Также в констуркторе наследников заполняется
+	// РўР°РєР¶Рµ РІ РєРѕРЅСЃС‚СѓСЂРєС‚РѕСЂРµ РЅР°СЃР»РµРґРЅРёРєРѕРІ Р·Р°РїРѕР»РЅСЏРµС‚СЃСЏ
 	ArrayList toppings = new ArrayList();
  
 	void prepare() {

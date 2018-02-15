@@ -1,12 +1,17 @@
-package headfirst.strategy;
+package headfirst.strategy.ducks;
+
+import headfirst.strategy.behaviors.FlyBehavior;
+import headfirst.strategy.behaviors.QuackBehavior;
 
 public abstract class Duck {
+	// Экземпляры интерфейса
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;
  
 	public Duck() {
 	}
  
+	// Определеем в наследниках!!! DecoyDuck
 	public void setFlyBehavior (FlyBehavior fb) {
 		flyBehavior = fb;
 	}

@@ -1,8 +1,11 @@
-package headfirst.strategy;
+package headfirst.strategy.ducks;
+
+import headfirst.strategy.behaviors.FlyWithWings;
+import headfirst.strategy.behaviors.Quack;
 
 public class MallardDuck extends Duck {
 
-	// In interface define props
+	// В конструкторе определяем свойства
 	public MallardDuck() {
 		quackBehavior = new Quack();
 		flyBehavior = new FlyWithWings();
