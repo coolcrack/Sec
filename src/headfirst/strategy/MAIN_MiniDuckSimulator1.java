@@ -1,9 +1,9 @@
 package headfirst.strategy;
 
-public class MiniDuckSimulator1 {
+public class MAIN_MiniDuckSimulator1 {
  
 	public static void main(String[] args) {
- 
+		// Абстрактный класс
 		Duck mallard = new MallardDuck();
 		mallard.performQuack();
 		mallard.performFly();

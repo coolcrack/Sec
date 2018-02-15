@@ -1,6 +1,6 @@
 package headfirst.strategy;
 
-public class MiniDuckSimulator {
+public class MAIN_MiniDuckSimulator {
  
 	public static void main(String[] args) {
  
