@@ -3,8 +3,8 @@ package headfirst.factory.pizzas;
 import java.util.ArrayList;
 
 abstract public class Pizza {
-	// Определяются в конструкторах субкласса
-	// Используются ниже
+	// РћРїСЂРµРґРµР»СЏСЋС‚СЃСЏ РІ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°С… СЃСѓР±РєР»Р°СЃСЃР°
+	// РСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РЅРёР¶Рµ
 	String name;
 	String dough;
 	String sauce;
@@ -15,8 +15,8 @@ abstract public class Pizza {
 		return name;
 	}
 
-	// Используются в PizzaStore
-	// Name определяется в субклассах
+	// РСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РІ PizzaStore
+	// Name РѕРїСЂРµРґРµР»СЏРµС‚СЃСЏ РІ СЃСѓР±РєР»Р°СЃСЃР°С…
 	public void prepare() {
 		System.out.println("Preparing " + name);
 	}

@@ -1,7 +1,7 @@
 package headfirst.factory.pizzafm;
 
 public class ChicagoStylePepperoniPizza extends Pizza {
-	// Все определяем в констуркторе
+	// Р’СЃРµ РѕРїСЂРµРґРµР»СЏРµРј РІ РєРѕРЅСЃС‚СѓСЂРєС‚РѕСЂРµ
 	public ChicagoStylePepperoniPizza() {
 		name = "Chicago Style Pepperoni Pizza";
 		dough = "Extra Thick Crust Dough";

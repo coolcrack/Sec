@@ -2,7 +2,7 @@ package headfirst.factory.pizzafm;
 
 public class DependentPizzaStore {
 	
-	// Пример некорректной реализации
+	// РџСЂРёРјРµСЂ РЅРµРєРѕСЂСЂРµРєС‚РЅРѕР№ СЂРµР°Р»РёР·Р°С†РёРё
 	public Pizza createPizza(String style, String type) {
 		Pizza pizza = null;
 		if (style.equals("NY")) {

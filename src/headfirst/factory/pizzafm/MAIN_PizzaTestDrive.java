@@ -5,7 +5,7 @@ public class MAIN_PizzaTestDrive {
 	public static void main(String[] args) {
 		PizzaStore nyStore = new NYPizzaStore();
 		PizzaStore chicagoStore = new ChicagoPizzaStore();
-		// Суть выносим его 
+		// РЎСѓС‚СЊ РІС‹РЅРѕСЃРёРј РµРіРѕ 
 		Pizza pizza = nyStore.orderPizza("cheese");
 		System.out.println("Ethan ordered a " + pizza.getName() + "\n");
  

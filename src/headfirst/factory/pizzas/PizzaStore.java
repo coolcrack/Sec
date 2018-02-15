@@ -3,7 +3,7 @@ package headfirst.factory.pizzas;
 public class PizzaStore {
 	SimplePizzaFactory factory;
  
-	// Сразу в main при создании определяем
+	// РЎСЂР°Р·Сѓ РІ main РїСЂРё СЃРѕР·РґР°РЅРёРё РѕРїСЂРµРґРµР»СЏРµРј
 	public PizzaStore(SimplePizzaFactory factory) { 
 		this.factory = factory;
 	}
@@ -11,7 +11,7 @@ public class PizzaStore {
 	public Pizza orderPizza(String type) {
 		Pizza pizza;
 		
-		// Создание экземпляра в фабрике
+		// РЎРѕР·РґР°РЅРёРµ СЌРєР·РµРјРїР»СЏСЂР° РІ С„Р°Р±СЂРёРєРµ
 		pizza = factory.createPizza(type);
  
 		pizza.prepare();

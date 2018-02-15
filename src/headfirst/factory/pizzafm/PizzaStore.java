@@ -1,11 +1,11 @@
 package headfirst.factory.pizzafm;
 
 public abstract class PizzaStore {
-	// Здесь уже существуют Виды PizzaStore поэтому переносим в abstract создание - createPizza реализуется в наследниках
-	// Это и есть фабричный метод
+	// Р—РґРµСЃСЊ СѓР¶Рµ СЃСѓС‰РµСЃС‚РІСѓСЋС‚ Р’РёРґС‹ PizzaStore РїРѕСЌС‚РѕРјСѓ РїРµСЂРµРЅРѕСЃРёРј РІ abstract СЃРѕР·РґР°РЅРёРµ - createPizza СЂРµР°Р»РёР·СѓРµС‚СЃСЏ РІ РЅР°СЃР»РµРґРЅРёРєР°С…
+	// Р­С‚Рѕ Рё РµСЃС‚СЊ С„Р°Р±СЂРёС‡РЅС‹Р№ РјРµС‚РѕРґ
 	abstract Pizza createPizza(String item);
 	
-	// Используется в main
+	// РСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ main
 	public Pizza orderPizza(String type) {
 		Pizza pizza = createPizza(type);
 		System.out.println("--- Making a " + pizza.getName() + " ---");
