@@ -3,15 +3,20 @@ package headfirst.factory.pizzas;
 import java.util.ArrayList;
 
 abstract public class Pizza {
+	// Определяются в конструкторах субкласса
+	// Используются ниже
 	String name;
 	String dough;
 	String sauce;
+	//
 	ArrayList toppings = new ArrayList();
 
 	public String getName() {
 		return name;
 	}
 
+	// Используются в PizzaStore
+	// Name определяется в субклассах
 	public void prepare() {
 		System.out.println("Preparing " + name);
 	}

@@ -1,6 +1,6 @@
 package headfirst.factory.pizzas;
 
-public class PizzaTestDrive {
+public class MAIN_PizzaTestDrive {
  
 	public static void main(String[] args) {
 		SimplePizzaFactory factory = new SimplePizzaFactory();
