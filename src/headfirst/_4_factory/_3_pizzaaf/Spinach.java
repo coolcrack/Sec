@@ -1,0 +1,8 @@
+package headfirst._4_factory._3_pizzaaf;
+
+public class Spinach implements Veggies {
+
+	public String toString() {
+		return "Spinach";
+	}
+}
